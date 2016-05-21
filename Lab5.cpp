@@ -77,6 +77,17 @@ class symphony_band: public Band
 	}
 	
 };
+
+class newclass{
+	private:
+		int somemember;
+		
+		newclass()
+		{
+			somemember = 10;
+		}
+};
+
 int main()
 {
 	int choice;
