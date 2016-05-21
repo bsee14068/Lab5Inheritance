@@ -81,10 +81,14 @@ class symphony_band: public Band
 class newclass{
 	private:
 		int somemember;
-		
+	public:
 		newclass()
 		{
 			somemember = 10;
+		}
+		void anotherfunction()
+		{
+			//do someethig
 		}
 };
 
